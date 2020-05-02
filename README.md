@@ -1,2 +1,2 @@
-# gradient--login-page
+# gradient-login-page
 A simple login page
