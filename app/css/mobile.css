@@ -1,0 +1,14 @@
+@media(max-width:800px){
+  .container{
+    flex-direction: column;
+  }
+  .primary{
+    padding: 60px 5px;
+  }
+  .secondary{
+    padding: 60px 5px;
+  }
+  input{
+    width: 300px
+  }
+}

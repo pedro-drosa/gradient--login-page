@@ -1,26 +1,14 @@
-/**CSS RESET*/
-*{ 
-  margin: 0; 
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif; 
+/**RESET*/
+@import'reset.css';
+/**MOBILE*/
+@import'mobile.css';
+/**BACKGROUND*/
+.cover{
+  background-image: url('image path');
+  background-position: center;
+  background-size: cover;
 }
-label{ 
-  display: none;
-}
-h1{
-  font-size: 2.5em;
-  font-weight: bold;
-  margin-bottom: 30px;
-  text-align: center;
-}
-p{
-  font-size: 1.2em;
-  text-align: center;
-}
-
-/*flex*/
+/**LAYOUT*/
 .container {
   display: flex;
   height: 100vh;
@@ -31,73 +19,9 @@ p{
   justify-content: center;
   flex-direction: column;
 }
-.primary {
+.flex-1 {
   flex: 1;
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
-.secondary{
+.flex-2 {
   flex: 2;
-}
-/*primary*/
-.primary h1{
-  color: #fff;
-}
-.primary p{
-  color: #fff;
-}
-/*secondary*/
-.secondary h1 {
-  color: #008793;
-}
-.secondary p {
-  color: #000000a6;
-  margin-bottom: 30px;
-}
-input{
-  padding: 10px;
-  margin: 5px 0;
-  height: 50px;
-  width: 40vw;
-  font-size: 1em;
-  text-transform: capitalize;
-  border: none;
-  border-radius: 4px;
-  background: rgba(10, 10, 10, 0.030);
-}
-/*button*/
-.btn {
-  display: block;
-  cursor: pointer;
-  width: 200px;
-  padding: 10px;
-  margin: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1em;
-  font-weight: bold;
-  color: #fff;
-  border: none;
-  border-radius: 50px;
-}
-.btn-primary {
-  background: none;
-  border: 3px solid #fff;
-}
-.btn-secondary {
-  background: #008793;
-  border: 3px solid #008793;
-}
-@media(max-width:800px){
-  .container{
-    flex-direction: column;
-  }
-  .primary{
-    padding: 60px 5px;
-  }
-  .secondary{
-    padding: 60px 5px;
-  }
-  input{
-    width: 300px
-  }
 }

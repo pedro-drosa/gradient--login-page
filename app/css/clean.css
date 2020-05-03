@@ -1,0 +1,43 @@
+.clean div h1{
+  color: #fff;
+}
+.clean div p{
+  color: #fff;
+}
+.clean form h1:last-of-type{
+  color: #008793;
+}
+.clean form p{
+  color: #000000a6;
+  margin-bottom: 30px;
+}
+.clean-gradient {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+/*INPUT*/
+input{
+  background: rgba(10, 10, 10, 0.030);
+}
+/**BUTTON*/
+.btn {
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+.btn-primary {
+  background: none;
+  border: 3px solid #fff;
+}
+.btn-secondary {
+  background: #008793;
+  border: 3px solid #008793;
+}
