@@ -3,28 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS Theme-->
+  <link rel="stylesheet" href="./app/css/clean.css">
+  <!--Base CSS-->
+  <link rel="stylesheet" href="./app/css/main.css">
+  <!--Font Mont Serrat-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./app/css/style.css">
+  <!--Icons-->
+  <script src="https://kit.fontawesome.com/6b13c00a46.js" crossorigin="anonymous"></script>
   <title>Login</title>
 </head>
 <body>
   <main class="clean container">
     <div class="flex flex-1 clean-gradient">
+      <a role="button" class="btn-theme" data-theme='on' href="#"><i class="fas fa-adjust fa-2x" ></i></a>
       <h1>Welcome Back</h1>
       <p>To keep connected with us please</br>with you personal info</p>
-      <a href="#" type="submit" class="btn btn-primary">Sig in</a>
+      <a href="" type="submit" class="btn btn-primary">Sig in</a>
     </div>
     <form class="flex flex-2">
       <h1>Create Acount</h1>
       <p>Or use your e-mail for registration</p>
-        <label aria-hidden="true" for="name">Name</label>
-        <input class="icon login" name="name" type="text" placeholder="name">
-        <label for="email">email</label>
-        <input name="email" type="email" placeholder="email">
-        <label aria-hidden="true" for="password">password</label>
-        <input name="password" type="password" placeholder="password">
+      <label aria-hidden="true" for="name">Name</label>
+      <input class="icon login" name="name" type="text" placeholder="name">
+      <label for="email">email</label>
+      <input name="email" type="email" placeholder="email">
+      <label aria-hidden="true" for="password">password</label>
+      <input name="password" type="password" placeholder="password">
       <button type="submit" class="btn btn-secondary" type="submit">Send</button>
     </form>
   </main>
+  <script src="app/scripts/main.js"></script>
 </body>
 </html>

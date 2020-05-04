@@ -2,12 +2,6 @@
 @import'reset.css';
 /**MOBILE*/
 @import'mobile.css';
-/**BACKGROUND*/
-.cover{
-  background-image: url('image path');
-  background-position: center;
-  background-size: cover;
-}
 /**LAYOUT*/
 .container {
   display: flex;

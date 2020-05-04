@@ -2,10 +2,7 @@
   .container{
     flex-direction: column;
   }
-  .primary{
-    padding: 60px 5px;
-  }
-  .secondary{
+  .flex{
     padding: 60px 5px;
   }
   input{
