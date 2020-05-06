@@ -1,13 +1,13 @@
 body{
   background-color: #575757;
 }
-.dark div h1{
+div h1{
   color: #575757;
 }
-.dark div p{
+div p{
   color: #7A7A7A;
 }
-.dark form h1:last-of-type{
+form h1{
   color: #343434;
 }
 .dark form p{
@@ -15,6 +15,12 @@ body{
 }
 .dark-gradient{
   background-image: linear-gradient(to right top, #232323, #272727, #2b2b2b, #303030, #343434);
+}
+.social i:last-child{
+  color: #7a7a7a;
+}
+.social i:first-child {
+  color: #343434;
 }
 /*INPUT*/
 input{
@@ -46,7 +52,8 @@ input{
 }
 .btn-theme {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 20px;
+  transform: rotate(180deg);
   color: #7A7A7A;
 }

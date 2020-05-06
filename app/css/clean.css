@@ -13,6 +13,9 @@
 .clean-gradient {
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
+.social i:first-child {
+  color: #008793;
+}
 /*INPUT*/
 input{
   background: rgba(10, 10, 10, 0.030);
@@ -42,7 +45,7 @@ input{
 }
 .btn-theme {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 20px;
   color: #fff;
 }
