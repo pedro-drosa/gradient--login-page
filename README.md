@@ -6,21 +6,15 @@ A simple and responsive login page.
 
 developed with :
 
----
-
 - Html5
 - CSS3
 - JavaScript
 
 ## 😃 Show your support
 
----
-
 Give ⭐️ if you liked this project!
 
 # 📝License
-
----
 
 Feito com 🖤 by [@pedro-drosa](https://github.com/pedro-drosa)
 
